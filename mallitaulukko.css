@@ -1,0 +1,22 @@
+/*CSS:ssä kommentti alkaa kauttaviivalla ja tähdellä ja päättyy tähtikauttaviivaan */
+/*Taulukon ympärille laitettu yhden pikselin punainen pisteviiva */
+table{
+  border: 1px red;
+  border-style: dotted;
+}
+/* Otsikot ympäröity mustalla kiinteällä viivalla ja taustavärillä */
+th{
+  border: 1px solid;
+  background-color: #DEB887;
+}
+/* Varsinainen data ympyröity paksummalla viivalla ja luvut keskitetty oikealle */
+td{
+  border: 2px;
+  border-style: ridge;
+  text-align: right;
+}
+/* Yllä vain luvut, koska tämä kumoaa Sarakeotsikkojen osalta keskityksen ja keskittää ne takaisin vasemmalle */
+#nimi{
+  text-align: left;
+  background-color: #F5F5DC;
+}
