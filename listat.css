@@ -1,0 +1,29 @@
+body{
+     color:aliceblue;
+    background-image: url(tausta2.jpg);
+    background-position: center;
+    background-position: top;
+    margin 0 auto;
+   
+ }
+bg{
+    
+
+}
+ul, ol{
+float: left;
+display: block;
+}
+#moottorittomat{
+    background-color: lightyellow;
+    color:brown;
+
+}
+@keyframes blink{
+0%{opacity: 0;}
+50%{opacity: .5;}
+100%{opacity: 1;}
+}
+#fillari{
+   animation: blink 1s linear infinite; 
+}
